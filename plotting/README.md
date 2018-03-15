@@ -7,7 +7,7 @@
  * [matplotlib](https://github.com/matplotlib/matplotlib)
  * [web3.py](https://github.com/ethereum/web3.py)
 
-You can install the deps via `pip`:
+You can install the Python deps via `pip`:
 
 ```
 pip install matplotlib web3
@@ -18,7 +18,7 @@ pip install matplotlib web3
 ```
 ./diff_plotter.py -h
 usage: diff_plotter.py [-h] [-V] [-a JSONRPC] [-s START_BLOCK] [-e END_BLOCK]
-                       [-f BLOCK_FREQ] [-o OUTPUT] [-S]
+                       [-r SAMPLING_RATE] [-o OUTPUT] [-S]
 
 ellap - Simple tool to plot ella difficulty
 
@@ -31,11 +31,12 @@ optional arguments:
                         Set start block.
   -e END_BLOCK, --end-block END_BLOCK
                         Set end block.
-  -f BLOCK_FREQ, --block-freq BLOCK_FREQ
-                        Set block freq.
+  -r SAMPLING_RATE, --sampling-rate SAMPLING_RATE
+                        Set sampling rate.
   -o OUTPUT, --output OUTPUT
                         Output file.
   -S, --show            Show plot.
+
 ```
 
 ## Example Usage
