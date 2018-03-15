@@ -46,5 +46,24 @@ optional arguments:
 ```
 
 ```
-./diff_plotter.py -a http://localhost:8545 -o ella-diff-1.png --start-block 1 --end-block 500000 --sampling-rate 0.1 --show
+./diff_plotter.py -a http://localhost:8545 -o ella-diff-1.png \ 
+    --start-block 1 --end-block 500000 --sampling-rate 0.1 --show
 ```
+
+## Example Plots
+
+```
+./diff_plot.py -a http://localhost:8545 --show
+```
+
+![](https://raw.githubusercontent.com/lexruee/ellaism-stuff/master/plotting/ella-diff1.png)
+
+
+```
+./diff_plotter.py -a http://localhost:8545 -o ella-diff-1.png \ 
+    --start-block 1 --end-block 500000 --sampling-rate 0.1 --show
+```
+
+![](https://raw.githubusercontent.com/lexruee/ellaism-stuff/master/plotting/ella-diff2.png)
+
+
