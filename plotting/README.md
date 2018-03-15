@@ -60,10 +60,15 @@ optional arguments:
 
 
 ```
-./diff_plotter.py -a http://localhost:8545 -o ella-diff-1.png \ 
+./diff_plotter.py -a http://localhost:8545 -o ella-diff2.png \ 
     --start-block 1 --end-block 500000 --sampling-rate 0.1 --show
 ```
 
 ![](https://raw.githubusercontent.com/lexruee/ellaism-stuff/master/plotting/ella-diff2.png)
 
 
+```
+./diff_plotter.py -a http://localhost:8545 -o ella-diff3.png --end-block -1 --show
+```
+
+![](https://raw.githubusercontent.com/lexruee/ellaism-stuff/master/plotting/ella-diff3.png)
