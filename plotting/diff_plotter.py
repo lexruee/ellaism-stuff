@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+__author__ = 'Alexander Rüedlinger'
+__license__ = 'MIT'
+
 import matplotlib.pyplot as plt
 from helper import Client 
 from datetime import datetime

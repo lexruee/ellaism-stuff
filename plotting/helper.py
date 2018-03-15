@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+__author__ = 'Alexander Rüedlinger'
+
+__license__ = 'MIT'
+
+
 from web3 import Web3, HTTPProvider
 
 class Client:
