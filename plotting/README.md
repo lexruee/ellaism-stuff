@@ -2,7 +2,7 @@
 
 ## Dependencies
 
- * a local ellaism node
+ * a local [ellaism node](https://ellaism.org/install/)
  * python3 
  * [matplotlib](https://github.com/matplotlib/matplotlib)
  * [web3.py](https://github.com/ethereum/web3.py)
